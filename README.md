@@ -28,4 +28,11 @@ To develop an automated maintenance suite that:
 ---
 
 ## 🗂️ Folder Structure
-
+SystemMaintenance/
+│
+├── backup.sh # Script to back up user data
+├── log_monitor.sh # Script to monitor logs for errors/warnings
+├── maintenance_suite.sh # Menu-driven interface to access all scripts
+├── test_suite.sh # Script to test other scripts automatically
+├── update_cleanup.sh # Script to clean temporary files & simulate system updates
+└── logs/ # Folder where log files are generated
